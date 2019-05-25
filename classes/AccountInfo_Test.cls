@@ -4,10 +4,8 @@
 
 @isTest
 private class AccountInfo_Test {
-    static testMethod void test1() {
 
-// this is a test
-        // Test that the trigger correctly updated the price
+    static testMethod void test1() {
         System.assertEquals(10, new AccountInfo().getCalculatedValue(3,7));
     }
 }
